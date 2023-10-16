@@ -2,7 +2,7 @@ import React from 'react'
 
 const Error = ({error}) => {
     return (
-        <div role="alert" className='w-full px-20'>
+        <div role="alert" className='w-full px-20 mb-10'>
             <div class="bg-red-500 text-white font-bold rounded-t px-4 py-2">
                 Danger
             </div>

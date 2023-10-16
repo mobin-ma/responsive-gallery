@@ -33,7 +33,6 @@ export const fetchPhotos = () => {
       
       const url = 'https://api.unsplash.com/photos?client_id=AoU3rrW5uEwQ-s_h5coetcuXq4AmjBaL-fZz4LkLWt4';
       const response = await axios.get(url);
-
       dispatch(photosSlice.actions.setPhotos(response.data)); // We store the photo data in Redux
     } catch (error) {
       dispatch(photosSlice.actions.setError(error.message)); // If an error occurs, we store the error in Redux

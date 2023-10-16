@@ -25,7 +25,7 @@ const Header = () => {
             </div>
             <div className='w-full flex justify-center sm:justify-end'>
                 <div className='w-2/2 sm:w-1/2 relative'>
-                    <input type="search" className='w-full border-none rounded-full focus:ring-0 bg-sky-200/50 dark:bg-rose-100 transition ease-in duration-700  pl-10' />
+                    <input type="search" className='w-full border-none rounded-full focus:ring-0 bg-sky-200/50 dark:bg-rose-300 transition ease-in duration-700  pl-10' />
                     <BsSearch className='dark:text-zinc-800 absolute top-1/2 -translate-y-1/2 left-3' />
                 </div>
             </div>
